@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Raw benchmark data is large and license-gated (DUD-E / LIT-PCBA / PDBbind) —
+# fetch it yourself per data/README.md, don't commit it.
+data/raw/*
+!data/raw/.gitkeep
+
+*.log
+.ipynb_checkpoints/

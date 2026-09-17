@@ -1,0 +1,2 @@
+target,n_actives,n_decoys,property_bias,scaffold_bias,ave_bias
+TP53,79,4168,0.18262029568259674,0.952143863891576,0.41348144307983664

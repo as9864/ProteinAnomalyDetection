@@ -1,0 +1,61 @@
+{
+  "ampc": {
+    "property_bias_score": 0.2844462719298245,
+    "scaffold_bias_score": 0.9785094506863228,
+    "ave_bias_score": 0.5324232651142788,
+    "property_detail": {
+      "MolWt": {
+        "ks_stat": 0.12048245614035091,
+        "ks_pvalue": 0.4635186112444516,
+        "standardized_wasserstein": 0.13565962703807058
+      },
+      "MolLogP": {
+        "ks_stat": 0.2120175438596491,
+        "ks_pvalue": 0.02429897044427759,
+        "standardized_wasserstein": 0.31102029056330444
+      },
+      "TPSA": {
+        "ks_stat": 0.20679824561403515,
+        "ks_pvalue": 0.03007040794240815,
+        "standardized_wasserstein": 0.3598646263510745
+      },
+      "NumHDonors": {
+        "ks_stat": 0.559956140350877,
+        "ks_pvalue": 1.8657624607455052e-14,
+        "standardized_wasserstein": 1.4767106263918923
+      },
+      "NumHAcceptors": {
+        "ks_stat": 0.19438596491228066,
+        "ks_pvalue": 0.04883872146473035,
+        "standardized_wasserstein": 0.4684299382690434
+      },
+      "NumRotatableBonds": {
+        "ks_stat": 0.16894736842105262,
+        "ks_pvalue": 0.11997511746048042,
+        "standardized_wasserstein": 0.33830381037828255
+      },
+      "NetCharge": {
+        "ks_stat": 0.6041666666666667,
+        "ks_pvalue": 5.276433804159909e-17,
+        "standardized_wasserstein": 1.942222694726404
+      },
+      "NumAromaticRings": {
+        "ks_stat": 0.20881578947368418,
+        "ks_pvalue": 0.027710663191754987,
+        "standardized_wasserstein": 0.4195367350023469
+      }
+    },
+    "scaffold_detail": {
+      "score": 0.9785094506863228,
+      "jaccard_overlap": 0.02149054931367722,
+      "jaccard_overlap_std": 0.008471548002219836,
+      "raw_jaccard_overlap": 0.002763957987838585,
+      "active_scaffold_coverage": 0.18518518518518517,
+      "decoy_scaffold_coverage": 0.0027979854504756574,
+      "n_unique_actives": 27,
+      "n_unique_decoys": 1787,
+      "actives_concentration": 0.11098038308600033,
+      "decoys_concentration": 0.07347784635095567
+    }
+  }
+}

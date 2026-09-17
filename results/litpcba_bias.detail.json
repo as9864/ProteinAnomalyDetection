@@ -1,0 +1,61 @@
+{
+  "TP53": {
+    "property_bias_score": 0.18262029568259674,
+    "scaffold_bias_score": 0.952143863891576,
+    "ave_bias_score": 0.41348144307983664,
+    "property_detail": {
+      "MolWt": {
+        "ks_stat": 0.3070743944216332,
+        "ks_pvalue": 5.492514782540799e-07,
+        "standardized_wasserstein": 0.315502156131714
+      },
+      "MolLogP": {
+        "ks_stat": 0.14602213367671713,
+        "ks_pvalue": 0.06596012362847975,
+        "standardized_wasserstein": 0.2887054210950226
+      },
+      "TPSA": {
+        "ks_stat": 0.254929055613596,
+        "ks_pvalue": 6.261342253240733e-05,
+        "standardized_wasserstein": 0.41029758420265816
+      },
+      "NumHDonors": {
+        "ks_stat": 0.15425848538594222,
+        "ks_pvalue": 0.044569706539732176,
+        "standardized_wasserstein": 0.25114780661704583
+      },
+      "NumHAcceptors": {
+        "ks_stat": 0.2054623533127627,
+        "ks_pvalue": 0.002391113255762565,
+        "standardized_wasserstein": 0.400446812839976
+      },
+      "NumRotatableBonds": {
+        "ks_stat": 0.0987572584367939,
+        "ks_pvalue": 0.40915986558164963,
+        "standardized_wasserstein": 0.14678089801055896
+      },
+      "NetCharge": {
+        "ks_stat": 0.09859022328044909,
+        "ks_pvalue": 0.41124171422074424,
+        "standardized_wasserstein": 0.1720284130854918
+      },
+      "NumAromaticRings": {
+        "ks_stat": 0.19586846133287983,
+        "ks_pvalue": 0.004412815722730129,
+        "standardized_wasserstein": 0.4853281100721492
+      }
+    },
+    "scaffold_detail": {
+      "score": 0.952143863891576,
+      "jaccard_overlap": 0.04785613610842404,
+      "jaccard_overlap_std": 0.014583775610310514,
+      "raw_jaccard_overlap": 0.014729950900163666,
+      "active_scaffold_coverage": 0.391304347826087,
+      "decoy_scaffold_coverage": 0.01507537688442211,
+      "n_unique_actives": 46,
+      "n_unique_decoys": 1194,
+      "actives_concentration": 0.0751234907926348,
+      "decoys_concentration": 0.3127401697155495
+    }
+  }
+}

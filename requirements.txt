@@ -1,0 +1,8 @@
+rdkit>=2023.9
+numpy
+scipy
+scikit-learn
+pandas
+pyarrow
+pytest
+requests
